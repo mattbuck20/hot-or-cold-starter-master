@@ -73,7 +73,7 @@ $(document).ready(function(){
       $("#userGuess").val("");
       $("#userGuess").attr("placeholder", "Enter your Guess!");
       $("#guessList li").remove();
-      console.log("answer: "+ sanswer);
+      console.log("answer: "+ answer);
      }; 
 
      var text;
